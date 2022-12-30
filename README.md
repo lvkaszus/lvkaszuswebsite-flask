@@ -1,6 +1,8 @@
 # lvkaszuswebsite
 - https://lvkaszus.pl - Source Code of my public website
 
+## Font Awesome
+- This repository uses Font Awesome library. (https://github.com/FortAwesome/Font-Awesome)
 
 ## Folders
 
