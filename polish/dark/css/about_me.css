@@ -1,6 +1,6 @@
 /*
     @lvkaszus : lvkaszus.pl
-    Contact Page Stylesheet (contact.css)
+    About Me Page Stylesheet (about_me.css)
     Language: PL/Polish
 
     GitHub: https://github.com/lvkaszus/lvkaszuswebsite
@@ -10,14 +10,14 @@
 
 @font-face {
     font-family: Roboto-Regular;
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Roboto-Light;
-    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    src: url('../../fonts/Roboto-Light.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
@@ -32,9 +32,9 @@
 }
 
 body {
-    color: black;
+    color: white;
     font-family: Roboto-Regular;
-    background-image: url("../images/contact-background.png");
+    background-image: url("../images/about_me-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ body {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #000000;
     height: 80px;
     width: 100%;
 }
@@ -69,7 +69,7 @@ p.lvlogo {
     text-align: center;
     font-size: 32px;
     line-height: 80px;
-    color: #000000;
+    color: #ffffff;
     margin-right: 110px;
 }
 
@@ -79,7 +79,7 @@ nav ul {
     position: fixed;
     width: 215px;
     height: 100%;
-    background: #ffffff;
+    background: #000000;
     top: 80px;
     left: -100%;
     text-align: left;
@@ -94,7 +94,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px 15px;
 }
@@ -104,7 +104,7 @@ nav ul li a {
 }
 
 nav ul li a.current, nav ul li a.current:active, nav ul li a.current:hover {
-    color: #555555;
+    color: #aaaaaa;
     background-color:rgba(110, 110, 110, 0.1)
 }
 
@@ -123,7 +123,7 @@ nav ul li a:active, nav ul li a:hover {
 
 .checkbutton {
     font-size: 22px;
-    color: #000000;
+    color: #ffffff;
     float: left;
     line-height: 80px;
     margin-left: 50px;
@@ -140,114 +140,61 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-
-    
+    height: 100%;    
 }
 
 .panel-back {
     padding: 15px;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 10px;
+    text-align: center;
+    
+}
+
+.page_info-title {
+    font-size: 24px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
-.page_contact-title {
-    font-size: 24px;
-    margin-bottom: 25px;
-}
-
-.page_contact-information-1 {
-    font-size: 18px;
-    margin: 20px 0 30px;
-    
-}
-
-.page_contact-information-2 {
+.page_info-description {
+    float: right;
+    margin: 0 10px 15px;
     font-family: Roboto-Light;
+    font-size: 18px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.page_info-medialink {
     font-size: 16px;
-    margin-bottom: 30px;
-    
+    color: #ffffff;
+    text-decoration: underline;
 }
 
-.page_contact-socialmedianame {
-    margin-top: 15px;
+.page_info-medialink:hover {
+    color:#808080;
 }
 
-.page_contact-instagram {
-    color: #be0082;
-}
-
-.page_contact-instagram:hover {
-    color: #ff5cce;
-}
-
-.page_contact-snapchat {
-    color: #a0a900;
-}
-
-.page_contact-snapchat:hover {
-    color: #ffffa5;
-}
-
-.page_contact-telegram {
-    color: #009bbe;
-}
-
-.page_contact-telegram:hover {
-    color: #a8efff;
-}
-
-.page_contact-emailname {
-    margin-top: 25px;
-}
-
-.page_contact-pgpmail, .page_contact-nonpgpmail {
-    color: #555555;
-}
-
-.page_contact-pgpmail:hover, .page_contact-nonpgpmail:hover {
-    color: #808080;
-}
-
-@media screen and (max-width: 610px), screen and (max-height: 570px){
-    .panel-back {
-        width: 300px;
+@media screen and (max-width: 840px), screen and (max-height: 570px){
+    .panel-back img {
+        display: none;
     }
 
-    .page_contact-title {
-        font-size: 18px;
-        margin-bottom: 10px;
+    .page_info-description {
+        clear: both;
+        font-size: 16px;
+        text-align: center;
     }
-
-    .page_contact-information-1 {
-        margin: 0 0 10px;
-        
-    }
-
-    .page_contact-information-2 {
-        margin-bottom: 15px;
-        
-    }
-
-    .page_contact-socialmedianame {
-        margin-top: 5px;
-    }
-
-    .page_contact-emailname {
-        font-size: 14px;
-        margin-top: 15px;
-    }
-
 }
 
 footer {
     text-align: center;
     font-size: 10px;
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 2px 0 0 3px;
 }
 
 footer a {
-    color: #000000;
+    color: #ffffff;
 }
