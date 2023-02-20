@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+Disallow: /cdn-cgi/
+Disallow: /inne/
+Disallow: /files/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /css/
+Disallow: /elements/
+
+Sitemap: https://lvkaszus.pl/sitemap.xml

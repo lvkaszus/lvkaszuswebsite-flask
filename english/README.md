@@ -1,7 +1,7 @@
-# lvkaszuswebsite - English Language
-- My Official website one to one in English language. (https://lvkaszus.pl)
+# lvkaszuswebsite - Polish Language
+- My Official website one to one in Polish language. (https://lvkaszus.pl)
 
-- Go back and go to /polish folder for Polish language.
+- Go back and go to /english folder for English language.
 
 ## Font Awesome
 - This repository uses Font Awesome library. (https://github.com/FortAwesome/Font-Awesome)

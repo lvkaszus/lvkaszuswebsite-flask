@@ -10,14 +10,14 @@
 
 @font-face {
     font-family: Roboto-Regular;
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Roboto-Light;
-    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    src: url('../../fonts/Roboto-Light.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
@@ -32,7 +32,7 @@
 }
 
 body {
-    color: black;
+    color: white;
     font-family: Roboto-Regular;
     background-image: url("../images/pgp-background.png");
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #000000;
     height: 80px;
     width: 100%;
 }
@@ -69,7 +69,7 @@ p.lvlogo {
     text-align: center;
     font-size: 32px;
     line-height: 80px;
-    color: #000000;
+    color: #ffffff;
     margin-right: 110px;
 }
 
@@ -79,7 +79,7 @@ nav ul {
     position: fixed;
     width: 215px;
     height: 100%;
-    background: #ffffff;
+    background: #000000;
     top: 80px;
     left: -100%;
     text-align: left;
@@ -94,7 +94,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px 15px;
 }
@@ -104,7 +104,7 @@ nav ul li a {
 }
 
 nav ul li a.current, nav ul li a.current:active, nav ul li a.current:hover {
-    color: #555555;
+    color: #aaaaaa;
     background-color:rgba(110, 110, 110, 0.1)
 }
 
@@ -123,7 +123,7 @@ nav ul li a:active, nav ul li a:hover {
 
 .checkbutton {
     font-size: 22px;
-    color: #000000;
+    color: #ffffff;
     float: left;
     line-height: 80px;
     margin-left: 50px;
@@ -145,7 +145,7 @@ section {
 
 .panel-back {
     padding: 15px;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 10px;
     text-align: center;
     width: 570px;
@@ -170,9 +170,9 @@ section {
 }
 
 .page_pgp-fingerprint {
-    border: 1px solid #000000;
-    background-color: #808080;
-    color: #ffffff;
+    border: 1px solid #aaaaaa;
+    background-color: #cccccc;
+    color: #000000;
     margin: 10px 0 20px;
     font-size: 14px;
     text-align: center;
@@ -180,7 +180,7 @@ section {
 
 .page_pgp-information-email_link:link, .page_pgp-information-email_link:visited {
     font-size: 16px;
-    color:#000000;
+    color:#ffffff;
     text-decoration: underline;
 }
 
@@ -199,18 +199,18 @@ section {
 .page_pgp-download_key_button-b {
     font-size: 14px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 7px 42px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
 }
 
 .page_pgp-download_key_button-b:hover {
-    color: rgb(100, 100, 100);
-    border: 2px solid rgb(40, 40, 40);
-    box-shadow: 0 3px 15px rgb(40, 40, 40);
+    color: rgb(200, 200, 200);
+    border: 2px solid rgb(160, 160, 160);
+    box-shadow: 0 3px 15px rgb(160, 160, 160);
 }
 
 .page_pgp-download_signature_button {
@@ -220,18 +220,18 @@ section {
 .page_pgp-download_signature_button-b {
     font-size: 14px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 7px 20px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
 }
 
 .page_pgp-download_signature_button-b:hover {
-    color: rgb(100, 100, 100);
-    border: 2px solid rgb(40, 40, 40);
-    box-shadow: 0 3px 15px rgb(40, 40, 40); 
+    color: rgb(200, 200, 200);
+    border: 2px solid rgb(160, 160, 160);
+    box-shadow: 0 3px 15px rgb(160, 160, 160); 
 }
 
 .page_pgp-home_button {
@@ -241,18 +241,18 @@ section {
 .page_pgp-home_button-b {
     font-size: 14px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px 35px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 3px;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
 }
 
 .page_pgp-home_button-b:hover {
-    color: rgb(100, 100, 100);
-    border: 2px solid rgb(40, 40, 40);
-    box-shadow: 0 3px 15px rgb(40, 40, 40); 
+    color: rgb(200, 200, 200);
+    border: 2px solid rgb(160, 160, 160);
+    box-shadow: 0 3px 15px rgb(160, 160, 160); 
 }
 
 @media screen and (max-width: 610px), screen and (max-height: 570px){
@@ -305,10 +305,10 @@ section {
 footer {
     text-align: center;
     font-size: 10px;
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 2px 0 0 3px;
 }
 
 footer a {
-    color: #000000;
+    color: #ffffff;
 }
