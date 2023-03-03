@@ -1,5 +1,5 @@
-# lvkaszuswebsite - Polish Language
-- My Official website one to one in Polish language. (https://lvkasz.us)
+# lvkaszuswebsite - English Language
+- My Official website one to one in English language. (https://en.lvkasz.us)
 
 - Go back and go to /english folder for English language.
 
