@@ -1,5 +1,5 @@
 # lvkaszuswebsite
-- https://lvkaszus.pl - Source Code of my public website
+- https://lvkasz.us - Source Code of my public website
 
 ## Font Awesome
 - This repository uses Font Awesome library. (https://github.com/FortAwesome/Font-Awesome)
@@ -7,8 +7,8 @@
 ## Folders
 
 Official website one to one from my website link
-- /polish : Full web page in Polish language. (https://lvkaszus.pl)
-- /english : Full web page in English language. (https://en.lvkaszus.pl)
+- /polish : Full web page in Polish language. (https://lvkasz.us)
+- /english : Full web page in English language. (https://en.lvkasz.us)
 
 ### You want a clean template?
 - You can go to my lvkaszuswebsite-template repository for a clean template, and modify it as you want without any restrictions.
