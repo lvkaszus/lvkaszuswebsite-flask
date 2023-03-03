@@ -1,6 +1,6 @@
 User-Agent: *
-Allow: /
 Disallow: /cdn-cgi/
+Disallow: /dark/
 Disallow: /inne/
 Disallow: /files/
 Disallow: /fonts/
@@ -8,4 +8,4 @@ Disallow: /images/
 Disallow: /css/
 Disallow: /elements/
 
-Sitemap: https://lvkaszus.pl/sitemap.xml
+Sitemap: [http/https]://[YOUR_URL]/sitemap.xml
