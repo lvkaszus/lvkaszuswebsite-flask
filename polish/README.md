@@ -1,8 +1,6 @@
 # lvkaszuswebsite - Polish Language
 - My Official website one to one in Polish language. (https://lvkasz.us)
 
-[⚠️] - This repository is not maintained anymore! It is for archival purposes.
-
 - Go back and go to /english folder for English language.
 
 ## Font Awesome
