@@ -1,7 +1,5 @@
-# lvkaszuswebsite-old
-- https://lvkasz.us - Old Source Code of my public website (Not maintained anymore!)
-
-[⚠️] - This repository is not maintained anymore! It is for archival purposes.
+# lvkaszuswebsite-core
+- https://lvkasz.us - Core Source Code of my public website (HTML & CSS Layout, Python scripting not included!)
 
 ## Font Awesome
 - This repository uses Font Awesome library. (https://github.com/FortAwesome/Font-Awesome)
