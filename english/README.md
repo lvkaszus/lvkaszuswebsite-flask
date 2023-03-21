@@ -1,5 +1,7 @@
-# lvkaszuswebsite - English Language
+# lvkaszuswebsite-old - English Language
 - My Official website one to one in English language. (https://en.lvkasz.us)
+
+[⚠️] - This repository is not maintained anymore! It is for archival purposes.
 
 - Go back and go to /polish folder for Polish language.
 
