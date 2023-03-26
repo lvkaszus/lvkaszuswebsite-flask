@@ -1,0 +1,84 @@
+<!--
+    @lvkaszus : lvkasz.us
+    About Me Page (index.html)
+
+    Language: PL/Polish + EN/English
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+-->
+
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>O mnie</title>
+
+        <meta name="description" content="O mnie - your-url-here.com">
+        <meta name="keywords" content="keywords">
+        <meta name="robots" content="index, follow">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/pages/lvweb-about_me.css') }}" type="text/css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ url_for('static', filename='site.webmanifest') }}">
+    </head>
+
+    <body>
+        
+        <div id="flex-container">
+            <div id="parent-container">
+
+                <header>
+                    <a href="https://your-url-here.com" id="header_link-main" class="header_link">główna</a>
+                    &gt;<a href="https://your-url-here.com/about_me" id="header_link-about_me" class="header_link-current">o mnie</a>&lt;
+                    <a href="https://your-url-here.com/contact" id="header_link-contact" class="header_link">kontakt</a>
+                    <a href="https://your-url-here.com/pgp" id="header_link-pgp" class="header_link">klucz pgp</a>
+                    <a href="https://your-url-here.com/info" id="header_link-info" class="header_link">informacje</a>
+                </header>
+
+                <img src="{{ url_for('static', filename='images/core/lvkaszus-logo.gif') }}" alt="lvkaszus™ Animated Glitch Logo" width="350px" height="125px">
+
+                <p id="logo-description">informatyka</p>
+
+
+                <p id="subtext-1">kim jestem?</p>
+
+                <img id="image-me" src="{{ url_for('static', filename='images/me/me_1.jpg') }}" alt="lvkaszus" width="45%" height="310px">
+
+                <p class="about_me-description">
+                    Nazywam się Łukasz, znany bardziej jako "lvkaszus". Interesuję się informatyką każdego rodzaju oraz programowaniem. Lubię odkrywać nowe rzeczy 😃 Moim celem jest pracować w dziale serwerowym w dużych firmowych halach z serwerami i innymi urządzeniami teleinformatycznymi. Urodziłem się w 2006 roku i mieszkam w okolicach Kamienia Pomorskiego. To, że interesuję się informatyką nie oznacza że nie dotknąłem żadnej dziewczyny jak wiele głupich ludzi myśli. 😉
+                    <br><br>
+                    Mój opis który teraz czytasz, jak i ogólnie całą tą stronę napisałem samemu korzystając z własnego doświadczenia zaczynając od czystego pliku HTML i pustego arkusza stylów CSS, ciekawie prawda? 😄
+                </p>
+
+                <div style="clear: both;"></div>
+
+                <p id="info_for_mobiles">Na tej stronie jest moje zdjęcie. Aby je wyświetlić, uruchom tę stronę na komputerze!</p>
+
+                <div id="social_page-link">
+                    <a id="social_page-link-1" href="https://your-url-here.com">Moje media społecznościowe znajdziesz, klikając w ten link</a>
+                </div>
+            </div>
+
+            <footer>
+                <a href="https://your-url-here.com" class="footer_link">
+                    <p>lvkaszus™ // @lvkaszus 2022-2023</p>
+                    <p><i class="fa-brands fa-cloudflare">&nbsp;</i>CloudflareDNS + <i class="fa-solid fa-server">&nbsp;</i>lvkaszusServer + <i class="fa-brands fa-linux">&nbsp;</i>Linux + <i class="fa-brands fa-python">&nbsp;</i>Python + <i class="fa-regular fa-flask">&nbsp;</i>Flask = <i class="fa-solid fa-heart"></i></p>
+                    <p>lvkaszusWebsite - version: 4.0 - 23.03.2023 : latest</p>
+                </a>
+            </footer>
+        </div>
+
+    </body>
+
+    <script src="{{ url_for('static', filename='javascripts/lvweb-core.js') }}"></script>
+    <script src="{{ url_for('static', filename='javascripts/languageselector.js') }}"></script>
+</html>

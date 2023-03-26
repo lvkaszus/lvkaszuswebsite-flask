@@ -1,0 +1,143 @@
+/*
+    @lvkaszus : lvkasz.us
+    PGP Key Page CSS Stylesheet (lvweb-main.css)
+
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+*/
+
+
+@import url("../lvweb-core.css");
+
+#subtext-1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 25px 0 25px 0;
+}
+
+#pgp-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#pgp-fingerprint-subtext-1 {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+code {
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid var(--main-color);
+    background-color: #363636;
+    margin: 10px 0 20px;
+    padding: 3px 5px 3px 5px;
+}
+
+.social_media-link-pgp_email {
+    margin: 25px 0 10px 0;
+}
+
+.social_media-link-pgp_email-link {
+    font-size: 18px;
+    background: linear-gradient(#ff4040, #ff8080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.social_media-link-pgp_email-link:hover {
+    text-shadow: 0 3px 15px #ff8080;
+}
+
+.download-button {
+    margin: 25px 0 25px 0;
+}
+
+.download_signature-button {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 5px 46px;
+    border: 1px solid #8f8f8f;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+}
+
+.download_signature-button:hover {
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 3px 15px var(--main-color);
+}
+
+.download_key-button {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 5px 78px;
+    border: 1px solid #8f8f8f;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+}
+
+.download_key-button:hover {
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 3px 15px var(--main-color);
+}
+
+.homepage-button {
+    margin: 50px 0 10px 0;
+}
+
+.homepage-button-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 5px 46px;
+    border-width: 1px;
+    border-image: linear-gradient(#ff4800, #ff8c00) 10;
+    border-style: solid;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+}
+
+.homepage-button-link:hover {
+    color: #ffdbb0;
+    border-width: 2px;
+    box-shadow: 0 3px 15px #ffdbb0;
+}
+
+@media screen and (max-width: 600px), screen and (max-height: 960px){
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px), screen and (max-height: 850px){
+    #subtext-1 {
+        font-size: 14px;
+        margin: 25px 0 15px 0;
+    }
+
+    #pgp-description {
+        font-size: 14px;
+    }
+
+    #pgp-fingerprint-subtext-1 {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    code {
+        font-size: 10px;
+        margin: 10px 0 10px;
+    }
+
+    .social_media-link-pgp_email-link {
+        font-size: 16px;
+    }
+}

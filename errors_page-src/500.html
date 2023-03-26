@@ -1,0 +1,40 @@
+<!-- lvkaszusWebsite v4.0 - HTTP 500: Wewnętrzny błąd serwera! -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Błąd 500 - Wewnętrzny błąd serwera!</title>
+
+        <link rel="stylesheet" href="css/lverrors-core.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="#container">
+            <div id="error_page">
+                <p id="title-polish">Błąd 500: <span style="color: #ff5050;">Wewnętrzny błąd serwera!</span></p>
+                <p id="title-english">Error 500: <span style="color: #ff5050;">Internal Server Error!</span></p>
+
+                <p id="kernel_panic">
+                    [&emsp;&emsp;99734.586320] Kernel panic - not syncing: websrv: 500 Internal Server Error!<br>
+                    [&emsp;&emsp;99734.586324] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 6.1.21-Ubuntu_x86_64<br>
+                    [&emsp;&emsp;99734.586326] Hardware name: WebsiteServer, BIOS 2.30.4 11.07.2022<br>
+                    [&emsp;&emsp;99734.586331] Call Trace:<br>
+                    [&emsp;&emsp;99734.586335]&emsp;&emsp;[&lt;ffffffff91354b83&gt;] dump_stack+0x20/0x5c<br>
+                    [&emsp;&emsp;99734.586337]&emsp;&emsp;[&lt;ffffffff9135c23a&gt;] panic+0x33/0x6f<br>
+                    [&emsp;&emsp;99734.586343]&emsp;&emsp;[&lt;ffffffff918a331f&gt;] get_request+0x231/0x3a1<br>
+                    [&emsp;&emsp;99734.586345]&emsp;&emsp;[&lt;ffffffff918a352e&gt;] frwd_request+0x50/0x5f<br>
+                    [&emsp;&emsp;99734.586349]&emsp;&emsp;[&lt;ffffffff918432ca&gt;] http_proxy+0x2cd/0x5ce<br>
+                    [&emsp;&emsp;99734.586350]&emsp;&emsp;[&lt;ffffffff91785af0&gt;] req_timeout+0x330/0x340<br>
+                    [&emsp;&emsp;99734.586353]&emsp;&emsp;[&lt;ffffffff9164512d&gt;] http_proxy+0x4ff/0x5ae<br>
+                    [&emsp;&emsp;99734.586357]&emsp;&emsp;[&lt;ffffffff9134413b&gt;] rcv_request+0x69a/0x70f<br>
+                    [&emsp;&emsp;99734.586358]&emsp;&emsp;[&lt;ffffffff913462ea&gt;] http_response+0xe/0x100<br>
+                    [&emsp;&emsp;99734.586360]&emsp;&emsp;[&lt;ffffffff91347eff&gt;] err_page_500+0x70c/0x800<br>
+                    [&emsp;&emsp;99734.586364]&emsp;&emsp;[&lt;ffffffff913424c0&gt;] close_conn+0x77f/0x8ff<br>
+                    [&emsp;&emsp;99734.586375] Kernel Offset: 0xfc90000 from 0xffffffff90000000 (relocation range: 0xffffffff89000000-0xffffffffbfffffff)<br>
+                    [&emsp;&emsp;99734.586393] ---[end Kernel panic - not syncing: websrv: 500 Internal Server Error!]
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

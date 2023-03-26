@@ -1,0 +1,88 @@
+<!--
+    @lvkaszus : lvkasz.us
+    PGP Key Page (index.html)
+
+    Language: PL/Polish + EN/English
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+-->
+
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>Mój Klucz PGP</title>
+
+        <meta name="description" content="Mój Klucz PGP - your-url-here.com">
+        <meta name="keywords" content="keywords">
+        <meta name="robots" content="index, follow">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/pages/lvweb-pgp.css') }}" type="text/css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ url_for('static', filename='site.webmanifest') }}">
+    </head>
+
+    <body>
+        
+        <div id="flex-container">
+            <div id="parent-container">
+
+                <header>
+                    <a href="https://your-url-here.com" id="header_link-main" class="header_link">główna</a>
+                    <a href="https://your-url-here.com/about_me" id="header_link-about_me" class="header_link">o mnie</a>
+                    <a href="https://your-url-here.com/contact" id="header_link-contact" class="header_link">kontakt</a>
+                    &gt;<a href="https://your-url-here.com/pgp" id="header_link-pgp" class="header_link-current">klucz pgp</a>&lt;
+                    <a href="https://your-url-here.com/info" id="header_link-info" class="header_link">informacje</a>
+                </header>
+
+                <img src="{{ url_for('static', filename='images/core/lvkaszus-logo.gif') }}" alt="lvkaszus™ Animated Glitch Logo" width="350px" height="125px">
+
+                <p id="logo-description">informatyka</p>
+
+                
+                <p id="subtext-1"><i class="fa-solid fa-key">&nbsp;</i>Mój Klucz PGP - <u>tylko dla zaawansowanych</u>&nbsp;<i class="fa-solid fa-triangle-exclamation"></i></p>
+
+                <p id="pgp-description">Chcesz podpisać,  zaszyfrować lub<br>odszyfrować jakąś wiadomość lub plik związany ze mną i mi to wysłać?<br><u>Pobierz mój klucz publiczny PGP!</u></p>
+
+                <p id="pgp-fingerprint-subtext-1">Fingerprint klucza publicznego:</p>
+                <code>88B4 1A1B B27D F37B 75B5 90F3 8A99 4119 D424 5038</code>                
+            
+                <div class="social_media-link-pgp_email">
+                    <a class="social_media-link-pgp_email-link" href="mailto:your_pgp@email.here" target="_blank"><i class="fa-solid fa-lock">&nbsp;</i>PGP (your_pgp@email.here)</a>
+                </div>
+
+                <div class="download-button">
+                    <a class="download_signature-button" href="{{ url_for('static', filename='files/download/pgp_page/lvkaszus-PublicKey.pub.sig') }}" target="_blank"><i class="fa-solid fa-file-signature">&nbsp;</i>Pobierz sygnaturę klucza</a>
+                </div>
+                <div class="download-button">
+                    <a class="download_key-button" href="{{ url_for('static', filename='files/download/pgp_page/lvkaszus-PublicKey.pub') }}" target="_blank"><i class="fa-solid fa-download">&nbsp;</i>Pobierz klucz PGP</a>
+                </div>
+
+                <div class="homepage-button">
+                    <a class="homepage-button-link" href="https://your-url-here.com"><i class="fa-solid fa-house">&nbsp;</i>Powrót do strony głównej</a>
+                </div>
+            </div>
+
+            <footer>
+                <a href="https://your-url-here.com" class="footer_link">
+                    <p>lvkaszus™ // @lvkaszus 2022-2023</p>
+                    <p><i class="fa-brands fa-cloudflare">&nbsp;</i>CloudflareDNS + <i class="fa-solid fa-server">&nbsp;</i>lvkaszusServer + <i class="fa-brands fa-linux">&nbsp;</i>Linux + <i class="fa-brands fa-python">&nbsp;</i>Python + <i class="fa-regular fa-flask">&nbsp;</i>Flask = <i class="fa-solid fa-heart"></i></p>
+                    <p>lvkaszusWebsite - version: 4.0 - 23.03.2023 : latest</p>
+                </a>
+            </footer>
+        </div>
+
+    </body>
+
+    <script src="{{ url_for('static', filename='javascripts/lvweb-core.js') }}"></script>
+    <script src="{{ url_for('static', filename='javascripts/languageselector.js') }}"></script>
+</html>

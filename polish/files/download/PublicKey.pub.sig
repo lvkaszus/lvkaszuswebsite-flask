@@ -1,1 +1,0 @@
-Zawartość twojej Sygnatury Publicznego Klucza PGP.

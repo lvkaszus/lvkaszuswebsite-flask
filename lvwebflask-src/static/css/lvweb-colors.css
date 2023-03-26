@@ -1,0 +1,18 @@
+/*
+    @lvkaszus : lvkasz.us
+    CSS Colors Stylesheet (lvweb-colors.css)
+
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+*/
+
+:root {
+    --background-color: black;
+    --main-color: white;
+    --subtitle-color: #00ffff;
+    --link-color: #ffffff;
+    --link-hover-color: #c0c0c0;
+    --link-active-color: #888888;
+    --link-footer-color: #5f5f5f;
+}

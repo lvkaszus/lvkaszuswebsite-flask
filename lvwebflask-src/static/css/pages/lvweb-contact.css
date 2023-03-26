@@ -1,0 +1,106 @@
+/*
+    @lvkaszus : lvkasz.us
+    Contact Page CSS Stylesheet (lvweb-main.css)
+
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+*/
+
+
+@import url("../lvweb-core.css");
+
+#parent-container {
+    width: 800px;
+}
+
+#subtext-1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 25px 0 25px 0;
+}
+
+.contact-description {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.social_media-link {
+    margin: 20px 0 20px 0;
+}
+
+.social_media-link-socials {
+    font-size: 16px;
+    background: linear-gradient(#ff4800, #ff8c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.social_media-link-socials:hover {
+    text-shadow: 0 3px 15px #ff8c00;
+}
+
+.social_media-link-normal_email {
+    font-size: 16px;
+    background: linear-gradient(#00c3ff, #008cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.social_media-link-normal_email:hover {
+    text-shadow: 0 3px 15px #008cff;
+}
+
+.social_media-link-pgp_email {
+    margin: 30px 0 10px 0;
+}
+
+.social_media-link-pgp_email-link {
+    font-size: 16px;
+    background: linear-gradient(#ff4040, #ff8080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.social_media-link-pgp_email-link:hover {
+    text-shadow: 0 3px 15px #ff8080;
+}
+
+@media screen and (max-width: 550px), screen and (max-height: 650px){
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px), screen and (max-height: 790px){
+    #subtext-1 {
+        font-size: 14px;
+        margin: 25px 0 15px 0;
+    }
+
+    .contact-description {
+        font-size: 12px;
+    }
+
+    .social_media-link-socials {
+        font-size: 12px;
+    }
+
+    .social_media-link-normal_email {
+        font-size: 12px;
+    }
+
+    .social_media-link-pgp_email-link {
+        font-size: 12px;
+    }
+}

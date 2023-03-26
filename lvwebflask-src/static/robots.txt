@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+
+Sitemap: https://your-sitemap-url-here.com/sitemap.xml

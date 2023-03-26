@@ -1,0 +1,85 @@
+<!--
+    @lvkaszus : lvkasz.us
+    Contact Page (index.html)
+
+    Language: PL/Polish + EN/English
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+-->
+
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>Kontakt</title>
+
+        <meta name="description" content="Kontakt - your-url-here.com">
+        <meta name="keywords" content="keywords">
+        <meta name="robots" content="index, follow">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/pages/lvweb-contact.css') }}" type="text/css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ url_for('static', filename='site.webmanifest') }}">
+    </head>
+
+    <body>
+        
+        <div id="flex-container">
+            <div id="parent-container">
+
+                <header>
+                    <a href="https://your-url-here.com" id="header_link-main" class="header_link">główna</a>
+                    <a href="https://your-url-here.com/about_me" id="header_link-about_me" class="header_link">o mnie</a>
+                    &gt;<a href="https://your-url-here.com/contact" id="header_link-contact" class="header_link-current">kontakt</a>&lt;
+                    <a href="https://your-url-here.com/pgp" id="header_link-pgp" class="header_link">klucz pgp</a>
+                    <a href="https://your-url-here.com/info" id="header_link-info" class="header_link">informacje</a>
+                </header>
+
+                <img src="{{ url_for('static', filename='images/core/lvkaszus-logo.gif') }}" alt="lvkaszus™ Animated Glitch Logo" width="350px" height="125px">
+
+                <p id="logo-description">informatyka</p>
+
+                
+                <p id="subtext-1">chcesz się ze mną skontaktować?</p>
+
+                <p class="contact-description">
+                    Jeżeli chciałbyś lub chciałabyś się ze mną skontaktować w sposób pisemny lub głosowy, możesz napisać do mnie lub zadzwonić korzystając z moich mediów społecznościowych. Pozatym, zawsze możemy się umówić na spotkanie i pogadać 😁<br><br>Możesz również napisać do mnie wiadomość e-mail, zarówno w tradycyjnej metodzie jak i szyfrowanej kluczem PGP którego znajdziesz u góry klikając w link pod tytułem 'klucz pgp'<br><br><span style="font-weight: 500; color: #ff0000;">Pamiętaj tylko, że nigdy nie podam ci mojego prywatnego numeru telefonu. Mam ku temu swoje powody 😉</span>
+                </p>
+
+                <div class="social_media-link">
+                    <a class="social_media-link-socials" href="https://your-url-here.com"><i class="fa-solid fa-share-from-square">&nbsp;</i>Moje media społecznościowe</a>
+                </div>
+
+                <div class="social_media-link">
+                    <a class="social_media-link-normal_email" href="mailto:your_traditional@email.here"><i class="fa-solid fa-envelope">&nbsp;</i>Mój Adres E-mail (tradycyjny)</a>
+                </div>
+
+                <div class="social_media-link-pgp_email">
+                    <a class="social_media-link-pgp_email-link" href="mailto:your_pgp@email.here"><i class="fa-solid fa-lock">&nbsp;</i>Mój Adres E-mail (tylko PGP!)</a>
+                </div>
+
+            </div>
+
+            <footer>
+                <a href="https://your-url-here.com" class="footer_link">
+                    <p>lvkaszus™ // @lvkaszus 2022-2023</p>
+                    <p><i class="fa-brands fa-cloudflare">&nbsp;</i>CloudflareDNS + <i class="fa-solid fa-server">&nbsp;</i>lvkaszusServer + <i class="fa-brands fa-linux">&nbsp;</i>Linux + <i class="fa-brands fa-python">&nbsp;</i>Python + <i class="fa-regular fa-flask">&nbsp;</i>Flask = <i class="fa-solid fa-heart"></i></p>
+                    <p>lvkaszusWebsite - version: 4.0 - 23.03.2023 : latest</p>
+                </a>
+            </footer>
+        </div>
+
+    </body>
+
+    <script src="{{ url_for('static', filename='javascripts/lvweb-core.js') }}"></script>
+    <script src="{{ url_for('static', filename='javascripts/languageselector.js') }}"></script>
+</html>

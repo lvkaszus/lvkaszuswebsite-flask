@@ -1,3 +1,6 @@
+# NEEDS UPDATE! - Update soon...
+
+
 # lvkaszuswebsite-core
 - https://lvkasz.us - Core Source Code of my public website (HTML & CSS Layout, Python scripting not included!)
 

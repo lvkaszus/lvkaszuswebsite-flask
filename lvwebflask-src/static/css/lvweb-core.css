@@ -1,0 +1,128 @@
+/*
+    @lvkaszus : lvkasz.us
+    CSS Core Stylesheet (lvweb-core.css)
+
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+*/
+
+@import url("lvweb-colors.css");
+
+@import url("../elements/FontAwesome-6.3.0-Free/css/fontawesome.css");
+@import url("../elements/FontAwesome-6.3.0-Free/css/brands.css");
+@import url("../elements/FontAwesome-6.3.0-Free/css/solid.css");
+
+@import url("../elements/Fira_Code-6.2/fira_code.css");
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-color);
+    font-family: 'Fira Code';
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#parent-container {
+    text-align: center;
+    padding: 15px;
+    /*border: 1px solid var(--main-color);*/
+
+}
+
+#logo-description {
+    margin: 0;
+    font-weight: 300;
+    color: var(--subtitle-color);
+}
+
+header {
+    font-weight: 300;
+    font-size: 12px;
+    margin: 10px 0 5px 0;
+}
+
+header a {
+    margin: 0 15px 0 15px;
+}
+
+.header_link-current {
+    text-decoration: underline;
+}
+
+.header_link {
+    text-decoration: none;
+}
+
+
+
+a:link, a:visited {
+    color: var(--main-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+a:active{
+    color: var(--link-active-color);
+}
+
+
+#lvLangSelector-btn {
+    font-size: 14px;
+    margin: 10px 0;
+    background-color: var(--background-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 1px 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px), screen and (max-height: 790px){
+    #lvLangSelector-btn {
+       font-size: 10px;
+       margin: 2px 0;
+    }
+}
+
+
+footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer_link {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer_link p {
+    margin: 5px;
+    padding: 0;
+    color: var(--link-footer-color);
+}

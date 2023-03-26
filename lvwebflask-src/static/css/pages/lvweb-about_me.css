@@ -1,0 +1,83 @@
+/*
+    @lvkaszus : lvkasz.us
+    About Me Page CSS Stylesheet (lvweb-main.css)
+
+    GitHub: https://github.com/lvkaszus/lvkaszuswebsite-core
+
+    "I tried to make my code as less spaghetti as possible :(" - lvkaszus 2023
+*/
+
+
+@import url("../lvweb-core.css");
+
+#parent-container {
+    width: 800px;
+}
+
+#subtext-1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 25px 0 25px 0;
+}
+
+#image-me {
+    cursor: pointer;
+    float: left;
+    border: 1px solid var(--main-color);
+}
+
+.about_me-description {
+    font-weight: 300;
+    font-size: 14px;
+    float: right;
+    width: 50%;
+    margin: 0 15px 0 0;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#info_for_mobiles {
+    display: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#social_page-link {
+    margin-top: 30px;
+}
+
+#social_page-link-1 {
+    color: var(--subtitle-color);
+}
+
+@media screen and (max-width: 680px), screen and (max-height: 1000px){
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px), screen and (max-height: 790px){
+    #subtext-1 {
+        font-size: 14px;
+        margin: 20px 0 10px 0;
+    }
+
+    #image-me {
+        display: none;
+    }
+
+    .about_me-description {
+        font-size: 12px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #info_for_mobiles {
+        display: block;
+    }
+
+    #social_page-link-1 {
+        font-size: 14px;
+    }
+}
