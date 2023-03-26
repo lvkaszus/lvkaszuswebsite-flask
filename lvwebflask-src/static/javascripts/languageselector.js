@@ -86,7 +86,7 @@ function loadLanguageContent(language) {
       'pgp-homepage-button-link': '<i class="fa-solid fa-house">&nbsp;</i>Powrót do strony głównej',
 
       // Informations Page
-      'info-subtext-2': 'Strona internetowa Łukaszka! 😁',
+      'info-subtext-2': 'Strona internetowa (twoja_nazwa)! 😁',
       'info-description': 'Witaj na oficjalnej i jedynej mojej stronie w internecie!',
       'info-github-link-1': 'Zobacz kod źródłowy tej strony! 😄',
       'info-title-used_software-authors': 'Autorzy strony, komponentów, grafiki oraz design:',
@@ -133,7 +133,7 @@ function loadLanguageContent(language) {
       'pgp-homepage-button-link': '<i class="fa-solid fa-house">&nbsp;</i>Back to homepage',
 
       // Informations Page
-      'info-subtext-2': '😁',
+      'info-subtext-2': '(your_name) Website!😁',
       'info-description': 'Welcome to my official and only website on the internet!',
       'info-github-link-1': 'Check out the source code of this website! 😄',
       'info-title-used_software-authors': 'Authors of the site, components, graphics and design:',
