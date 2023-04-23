@@ -240,7 +240,7 @@ function loadLanguageContent(language) {
     info_title_used_software_backend.innerText = content[language]['info-title-used_software-backend'];
     info_used_software_backend.innerHTML = content[language]['info-used_software-backend'];
     info_title_used_software_frontend.innerText = content[language]['info-title-used_software-frontend'];
-    info_used_software_frontend.innerHTML = content[language]['info-used_software-backend'];
+    info_used_software_frontend.innerHTML = content[language]['info-used_software-frontend'];
   }
 }
 
